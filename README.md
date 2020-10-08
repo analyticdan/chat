@@ -17,4 +17,6 @@ The server is preconfigured to use the IP address of the machine it's running on
 
 The client, on the other hand, will prompt you to enter the IP address and port of a known server.
 
+The client will also prompt you to enter in a username and password, but the server does not verify these values. It only uses the username as a display name for the duration of the client's connection to the server. You'll again have to muck about in the source to change this. You can add verification features in `chat/src/server/Server.java`. Maybe you might add a database to verify and hash the password; that's up to you.
+
 I hope you enjoy this project. As always, if something goes catastrophically wrong, please don't sue me. Thanks. Cheers! I hope you enjoy.
