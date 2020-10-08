@@ -20,3 +20,20 @@ The client, on the other hand, will prompt you to enter the IP address and port 
 The client will also prompt you to enter in a username and password, but the server does not verify these values. It only uses the username as a display name for the duration of the client's connection to the server. You'll again have to muck about in the source to change this. You can add verification features in `chat/src/server/Server.java`. Maybe you might add a database to verify and hash the password; that's up to you.
 
 I hope you enjoy this project. As always, if something goes catastrophically wrong, please don't sue me. Thanks. Cheers! I hope you enjoy.
+
+Here are some example photos of what the client looks like:
+
+![The connection page. You enter in the server's IP and port here first.](imgs/client_connect.png)
+
+The connection page. You enter in the server's IP and port here first.
+
+![The login page. You enter a username (and superfluous) password here.](imgs/client_login.png)
+
+The login page. You enter a username (and superfluous) password here.
+
+![The chat box. You chat here after connecting to a server and logging in.](imgs/client_chat.png)
+
+The chat box. You chat here after connecting to a server and logging in.
+
+Finally, here are some example photos of the server logging actions by clients:
+![The server logs who (IP and username) logs in and what they send.](imgs/server_logs.png)
